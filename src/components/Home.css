@@ -1,4 +1,5 @@
 .intro{
     font-family: "Antique Olive Compact";
     font-weight:900;
+    pointer-events: none;
 }
