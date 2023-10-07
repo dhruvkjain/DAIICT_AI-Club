@@ -27,7 +27,7 @@ const Contact =({changeRoute})=>{
                     <p className="cursor-pointer" onClick={()=>changeRoute("contact")}>Contact Us</p>
                 </div>
                 <div>
-                    Made by Dhruv Jain
+                    Made by Dhruv K Jain
                 </div>
             </div>
             <div class="pyramid-loader">
