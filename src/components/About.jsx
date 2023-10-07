@@ -75,6 +75,36 @@ const About = () => {
             </div>
             </div>
 
+            <div class="myCard m-4">
+            <div class="innerCard">
+                <div class="frontSide">
+                    <img className="w-[100px]" src={dkj}></img>
+                    <p>B.Tech ICT</p>
+                    <p>1st year</p>
+                    <p>Hover to know more</p>
+                </div>
+                <div class="backSide">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="">PROFILE</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="myCard m-4">
+            <div class="innerCard">
+                <div class="frontSide">
+                    <img className="w-[100px]" src={dkj}></img>
+                    <p>B.Tech ICT</p>
+                    <p>1st year</p>
+                    <p>Hover to know more</p>
+                </div>
+                <div class="backSide">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="">PROFILE</a>
+                </div>
+            </div>
+            </div>
+
             </div>
 
 
@@ -132,90 +162,6 @@ const About = () => {
             </div>
             </div>
 
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
-            <div class="myCard m-4">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <img className="w-[100px]" src={dkj}></img>
-                    <p>B.Tech ICT</p>
-                    <p>1st year</p>
-                    <p>Hover to know more</p>
-                </div>
-                <div class="backSide">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="">PROFILE</a>
-                </div>
-            </div>
-            </div>
             <div class="myCard m-4">
             <div class="innerCard">
                 <div class="frontSide">

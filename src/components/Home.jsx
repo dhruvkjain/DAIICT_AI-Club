@@ -12,7 +12,7 @@ const Home =()=>{
             <div className="intro absolute">
             <p className="text-[4.5vw] font-bold">Welcome To</p>
             <p className="text-[4.5vw]  font-bold"><span className="text-[#fb8500]">AI CLUB</span> DA-IICT</p>
-            <p className="text-[4.5vw] font-bold">It’s not <span className="text-[#219ebc]">magic</span>, it’s <span className="text-[#ffb703]">AI</span></p>
+            <p className="text-[4.5vw] font-bold">It’s not <span className="text-[#f361ce]">magic</span>, it’s <span className="text-[#ffb703]">AI</span></p>
             </div>
         </div>
     )

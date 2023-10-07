@@ -5,7 +5,7 @@
 .form-container {
   max-width: 700px;
   margin: 30px;
-  background-color: #001925;
+  background-color: transparent;
   padding: 30px;
   border-left: 5px solid #ff7a01;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
@@ -22,7 +22,7 @@
 .form-container .form .input {
   color: #87a4b6;
   width: 100%;
-  background-color: #002733;
+  background-color: #4a4a4a;
   border: none;
   outline: none;
   padding: 10px;
@@ -41,7 +41,7 @@
   padding: 10px;
   border: none;
   outline: none;
-  background-color: #013747;
+  background-color: #414141;
   color: #ff7a01;
   font-weight: bold;
   resize: none;
@@ -64,7 +64,7 @@
   flex-basis: 70%;
   background: #ff7a01;
   padding: 10px;
-  color: #001925;
+  color: #373737;
   text-align: center;
   font-weight: bold;
   border: 1px solid transparent;
@@ -88,7 +88,7 @@
   padding: 10px;
   color: #ff7a01;
   font-weight: bold;
-  background: #001925;
+  background: #373737;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
   transition: all 0.2s ease-in-out;
 }
