@@ -1,4 +1,79 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 110px 1fr;
+}
+.ailogo{
+    width: 100px;
+}
 .navlinks{
-    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
     font-family: "Anurati-Regular";
+}
+.navlink{
+    border-bottom: 0px solid white;
+    border-width: 0px;
+    margin: 5px;
+}
+.navlink:hover{
+    border-bottom: 3px groove white;
+    border-bottom-width: 3px;
+    transition: border-bottom ease-in 0.1s;
+}
+.showMenu{
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+    transition: all linear 0.5s;
+}
+@media only screen and (max-width:1195px){
+    .navlinks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:710px){
+    .showMenu{
+        font-size: 20px;
+        width: fit-content;
+        height: fit-content;
+        transition: all linear 0.5s;
+    }
+}
+@media only screen and (max-width:635px){
+    .showMenu{
+        font-size: 18px;
+        width: fit-content;
+        height: fit-content;
+        transition: all linear 0.5s;
+    }
+}
+@media only screen and (max-width:590px){
+    .navlinks{
+        position: absolute;
+        transform: translateY(60%);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .ailogo{
+        width: 80px;
+    }
+}
+@media only screen and (max-width:390px){
+    .navlinks{
+        position: absolute;
+        transform: translateY(50%);
+        display: grid;
+        z-index: 10;
+        background-color: #0009;
+        border-radius: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }

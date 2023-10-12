@@ -18,8 +18,8 @@
 
 .myCard {
     background-color: transparent;
-    width: 190px;
-    height: 254px;
+    width: 200px;
+    height: 270px;
     perspective: 1000px;
 }
 
@@ -84,3 +84,8 @@
     animation: animate 5s linear infinite;
 }
 
+@media only screen and (max-width:590px){
+    .ap{
+        padding-top: 40px;
+    }
+}

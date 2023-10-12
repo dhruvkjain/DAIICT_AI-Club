@@ -2,3 +2,111 @@
     font-family: 'Orbitron', sans-serif;
     background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
 }
+.projectimg{
+    width: 300px;
+    height: 300px;
+}
+.projectcover{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    padding: 20px;
+}
+.projecttitle{
+    font-size: 45px;
+}
+.projectbywhom{
+    font-size: 30px;
+}
+.projectdes{
+    font-size: 20px;
+}
+@media only screen and (max-width:970px){
+    .projectimg{
+        width: 250px;
+        height: 250px;
+    }
+    .projectcover{
+        display:grid;
+        grid-template-columns: 250px 1fr;
+    }
+    .projecttitle{
+        font-size: 42px;
+    }
+    .projectbywhom{
+        font-size: 28px;
+    }
+    .projectdes{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:670px){
+    .projectimg{
+        width: 250px;
+        height: 250px;
+    }
+    .projectcover{
+        display:grid;
+        grid-template-columns: 250px 1fr;
+    }
+    .projecttitle{
+        font-size: 38px;
+    }
+    .projectbywhom{
+        font-size: 26px;
+    }
+    .projectdes{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:570px){
+    .projectimg{
+        width: 250px;
+        height: 250px;
+        float: none;
+    }
+    .projectimgcover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projectcover{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 1fr;
+    }
+    .projecttitle{
+        font-size: 38px;
+    }
+    .projectbywhom{
+        font-size: 26px;
+    }
+    .projectdes{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:350px){
+    .projectimg{
+        width: 200px;
+        height: 200px;
+        float: none;
+    }
+    .projectimgcover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projectcover{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr;
+    }
+    .projecttitle{
+        font-size: 35px;
+    }
+    .projectbywhom{
+        font-size: 22px;
+    }
+    .projectdes{
+        font-size: 14px;
+    }
+}

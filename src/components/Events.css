@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 5px 1fr;
     grid-template-rows: 30px 1fr;
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     font-family: 'Orbitron', sans-serif;
 }
 .line{
@@ -20,4 +20,115 @@
 }
 .eventdetails , .datetime{
     padding: 20px;
+}
+.clubimg{
+    width: 500px;
+    height: 280px;
+}
+.eventtitle{
+    font-size: 45px ;
+}
+.eventdes{
+    font-size: 25px ;
+}
+.eventlink{
+    font-size: 20px ;
+}
+.datetime{
+    font-size: 30px ;
+}
+@media only screen and (max-width:550px){
+    .clubimg{
+        width: 450px;
+        height: 250px;
+    }
+    .eventtitle{
+        font-size: 30px ;
+    }
+}
+@media only screen and (max-width:500px){
+    .clubimg{
+        width: 400px;
+        height: 230px;
+    }
+}
+@media only screen and (max-width:440px){
+    .clubimg{
+        width: 350px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:400px){
+    .clubimg{
+        width: 300px;
+        height: 180px;
+    }
+}
+@media only screen and (max-width:330px){
+    .clubimg{
+        width: 260px;
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .eventtitle{
+        font-size: 40px ;
+    }
+}
+@media only screen and (max-width:630px){
+    .eventtitle{
+        font-size: 35px ;
+    }
+}
+
+@media only screen and (max-width:775px){
+    .eventdes{
+        font-size: 20px ;
+    }
+}
+@media only screen and (max-width:560px){
+    .eventdes{
+        font-size: 18px ;
+    }
+}
+@media only screen and (max-width:495px){
+    .eventdes{
+        font-size: 16px ;
+    }
+}
+@media only screen and (max-width:400px){
+    .eventdes{
+        font-size: 14px ;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .eventlink{
+        font-size: 15px ;
+    }
+    .datetime{
+        font-size: 25px ;
+    }
+    .eventtitle{
+        font-size: 25px ;
+    }
+    .eventdes{
+        font-size: 12px ;
+    }
+}
+
+@media only screen and (max-width:315px){
+    .eventlink{
+        font-size: 12px ;
+    }
+    .datetime{
+        font-size: 15px ;
+    }
+    .eventtitle{
+        font-size: 20px ;
+    }
+    .eventdes{
+        font-size: 10px ;
+    }
 }

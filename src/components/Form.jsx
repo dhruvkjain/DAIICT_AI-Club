@@ -21,14 +21,6 @@ const Form = () => {
                 </div>
             </div>
 
-            <div className="socials grid grid-rows-2">
-                <a className="w-fit" href="https://www.instagram.com/daiict.ai.club/">
-                    <img className="w-fit" src={instalogo}></img>
-                </a>
-                <a className="w-fit" href="https://www.linkedin.com/in/ai-club-a98355242/">
-                    <img className="w-fit" src={linkedinlogo}></img>
-                </a>
-            </div>
         </div>
     )
 }
